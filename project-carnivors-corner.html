@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carnivor's Corner — a project by Harold Bryan C. Calegan.">
+    <title>Carnivor's Corner — Harold Calegan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="Scripts.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"> HC </a>
+
+            <nav class="main-nav" id="main-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link active">Projects</a>
+                <a href="index.html#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Change website theme">
+                    ◐
+                </button>
+
+                <a href="index.html#contact" class="contact-button">Let's Talk</a>
+
+                <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO BANNER -->
+        <section class="project-hero-banner banner-web">
+            <div class="container">
+                <a href="projects.html" class="back-link"><span>←</span> All Projects</a>
+                <p class="project-hero-category">Web Development / E-commerce</p>
+                <h1 class="project-hero-title">Carnivor's Corner</h1>
+            </div>
+        </section>
+
+        <!-- META STRIP -->
+        <section class="project-meta-strip">
+            <div class="container project-meta-row">
+                <div>
+                    <span>CATEGORY</span>
+                    <strong>Web Development / E-commerce</strong>
+                </div>
+                <div>
+                    <span>ROLE</span>
+                    <strong>Team Leader</strong>
+                </div>
+                <div>
+                    <span>YEAR</span>
+                    <strong>2024</strong>
+                </div>
+                <div>
+                    <span>STACK</span>
+                    <strong>PHP · MySQL · JavaScript</strong>
+                </div>
+            </div>
+        </section>
+
+        <!-- BODY -->
+        <section class="project-body">
+            <div class="container project-body-grid">
+                <div class="project-description">
+                            <p>Carnivor's Corner is a full-stack e-commerce website built for selling meat and marinated products online. As team leader, I directed the build and wrote a meaningful share of the code myself.</p>
+                            <p>Customers can browse products, manage a cart and wishlist, place orders, and process simulated payments. On the other side, an admin dashboard handles products, inventory, customers, orders, promotions, and sales reports.</p>
+                            <p>The project paired a PHP and MySQL backend with a hand-built HTML/CSS/JavaScript frontend, including a secure authentication system for both customers and admins.</p>
+
+                    <div class="project-tags">
+                            <span>PHP</span>
+                            <span>MYSQL</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JAVASCRIPT</span>
+                    </div>
+                </div>
+
+                <aside class="project-sidebar">
+                    <span class="sidebar-label">KEY FEATURES</span>
+                    <ul class="sidebar-list">
+                                <li>Cart, wishlist, and simulated checkout flow</li>
+                                <li>Secure customer and admin authentication</li>
+                                <li>Admin dashboard for inventory and sales reports</li>
+                                <li>Promotions and order management tools</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+
+        <!-- GALLERY -->
+        <section class="project-gallery-section">
+            <div class="container">
+                <p class="section-label" style="margin-bottom:20px;">GALLERY</p>
+                <div class="project-carousel single-image">
+                    <div class="carousel-track">
+                        <figure>
+                            <img src="assets/CARNIVOR'S CORNER/IMG 1.png" alt="Carnivor's Corner — storefront">
+                            <figcaption>Carnivor's Corner — storefront</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECT-TO-PROJECT NAV -->
+        <section>
+            <div class="container project-nav-footer">
+                <a href="project-immersive-atelier.html"><span>←</span> Immersive Atelier</a>
+                <a href="project-duoke-ai.html">Duoke AI <span>→</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="current-year">2026</span> Harold Bryan C. Calegan. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="mailto:caleganh@gmail.com">Email</a>
+                <a href="https://github.com/HaruuuuuCalegan" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://linkedin.com/in/harold-calegan-2b335b333" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Selected projects by Harold Bryan C. Calegan — web development, AI systems, and interactive experiences.">
+    <title>Projects — Harold Calegan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+    <script src="Scripts.js" defer></script>
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"> HC </a>
+
+            <nav class="main-nav" id="main-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="index.html#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Change website theme">
+                    ◐
+                </button>
+
+                <a href="index.html#contact" class="contact-button">Let's Talk</a>
+
+                <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="projects-page">
+            <div class="container">
+
+                <div class="project-header">
+                    <p class="section-label"> Projects</p>
+                    <h1 class="project-title"> Selected projects and experiments.</h1>
+                    <p class="projects-description">A collection of applications, AI systems,
+                        and interactive experiences built through
+                        development, research, and problem solving. </p>
+                </div>
+
+                <!-- FILTER -->
+                <div class="project-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ai">AI Systems</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="interactive">VR / Interactive</button>
+                    <button class="filter-btn" data-filter="desktop">Desktop</button>
+                    <button class="filter-btn" data-filter="security">Security</button>
+                </div>
+
+                <p class="project-total"><span id="project-number">6</span> projects</p>
+
+                <!-- PROJECT LIST -->
+                <div class="all-project-list">
+
+                    <!-- ECOM AI -->
+                    <a href="project-ecom-ai.html" class="all-project-row" data-category="ai">
+                        <span class="row-number"> 01 </span>
+                        <div class="row-info">
+                            <p> SYSTEMS &amp; AI </p>
+                            <h2> ECOM AI </h2>
+                            <p> Internal AI consultant system designed
+                                to centralize company knowledge and
+                                support e-commerce workflows across
+                                Shopee, TikTok Shop, and Lazada.</p>
+                            <div class="row-tags">
+                                <span> AI </span>
+                                <span> LLM </span>
+                                <span> WORKFLOW </span>
+                            </div>
+                        </div>
+                        <div class="row-image">
+                            <img src="assets/ECOM AI/ECOM AI 1.jpg" alt="ECOM AI dashboard preview">
+                        </div>
+                        <div class="row-meta">
+                            <span>2026</span>
+                            <span class="row-arrow"> → </span>
+                        </div>
+                    </a>
+
+                    <!-- IMMERSIVE ATELIER -->
+                    <a href="project-immersive-atelier.html" class="all-project-row" data-category="interactive">
+                        <span class="row-number"> 02 </span>
+                        <div class="row-info">
+                            <p> VR / INTERACTIVE </p>
+                            <h2> IMMERSIVE ATELIER (PIA) </h2>
+                            <p> VR educational pottery experience built with
+                                Unity and C#, using real-time 3D mesh modeling
+                                to simulate clay shaping and trimming.</p>
+                            <div class="row-tags">
+                                <span> UNITY </span>
+                                <span> VR </span>
+                                <span> INTERACTIVE </span>
+                            </div>
+                        </div>
+                        <div class="row-image">
+                            <img src="assets/PIA/IMAGE 1.png" alt="Immersive Atelier VR pottery game preview">
+                        </div>
+                        <div class="row-meta">
+                            <span>2026</span>
+                            <span class="row-arrow"> → </span>
+                        </div>
+                    </a>
+
+                    <!-- CARNIVOR'S CORNER -->
+                    <a href="project-carnivors-corner.html" class="all-project-row" data-category="web">
+                        <span class="row-number"> 03 </span>
+                        <div class="row-info">
+                            <p> WEB DEVELOPMENT </p>
+                            <h2> CARNIVOR'S CORNER </h2>
+                            <p> Full-stack online store for meat and marinated
+                                products, with authentication, cart and wishlist,
+                                and an admin dashboard for inventory and sales.</p>
+                            <div class="row-tags">
+                                <span> HTML </span>
+                                <span> CSS </span>
+                                <span> PHP </span>
+                                <span> MYSQL </span>
+                            </div>
+                        </div>
+                        <div class="row-image">
+                            <img src="assets/CARNIVOR'S CORNER/IMG 1.png" alt="Carnivor's Corner e-commerce site preview">
+                        </div>
+                        <div class="row-meta">
+                            <span>2024</span>
+                            <span class="row-arrow"> → </span>
+                        </div>
+                    </a>
+
+                    <!-- DUOKE AI -->
+                    <a href="project-duoke-ai.html" class="all-project-row" data-category="ai">
+                        <span class="row-number"> 04 </span>
+                        <div class="row-info">
+                            <p> AI AUTOMATION </p>
+                            <h2> DUOKE AI </h2>
+                            <p> AI-powered customer service automation for Shopee
+                                stores — automated replies, order reminders, and
+                                shipment notifications that keep response rates at 100%.</p>
+                            <div class="row-tags">
+                                <span> AI </span>
+                                <span> AUTOMATION </span>
+                                <span> SHOPEE </span>
+                            </div>
+                        </div>
+                        <div class="row-image">
+                            <img src="assets/DUOKE AI/IMG 1.png" alt="Duoke AI automation system preview">
+                        </div>
+                        <div class="row-meta">
+                            <span>2026</span>
+                            <span class="row-arrow"> → </span>
+                        </div>
+                    </a>
+
+                    <!-- INVENTORY MANAGEMENT SYSTEM -->
+                    <a href="project-inventory-system.html" class="all-project-row" data-category="desktop">
+                        <span class="row-number"> 05 </span>
+                        <div class="row-info">
+                            <p> DESKTOP </p>
+                            <h2> INVENTORY MANAGEMENT SYSTEM </h2>
+                            <p> Java and MySQL desktop application built for a small
+                                business to track inventory levels and sales records.</p>
+                            <div class="row-tags">
+                                <span> JAVA </span>
+                                <span> MYSQL </span>
+                            </div>
+                        </div>
+                        <div class="row-image placeholder">
+                            JAVA / MYSQL
+                        </div>
+                        <div class="row-meta">
+                            <span>2022</span>
+                            <span class="row-arrow"> → </span>
+                        </div>
+                    </a>
+
+                    <!-- NETWORK SECURITY SIMULATION -->
+                    <a href="project-network-security.html" class="all-project-row" data-category="security">
+                        <span class="row-number"> 06 </span>
+                        <div class="row-info">
+                            <p> SECURITY </p>
+                            <h2> NETWORK SECURITY SIMULATION </h2>
+                            <p> Directed a simulation environment for identifying network
+                                vulnerabilities and conducted penetration testing as
+                                project manager for the initiative.</p>
+                            <div class="row-tags">
+                                <span> NETWORKING </span>
+                                <span> PENETRATION TESTING </span>
+                            </div>
+                        </div>
+                        <div class="row-image placeholder">
+                            NETWORK SECURITY
+                        </div>
+                        <div class="row-meta">
+                            <span>2022</span>
+                            <span class="row-arrow"> → </span>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="current-year">2026</span> Harold Bryan C. Calegan. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="mailto:caleganh@gmail.com">Email</a>
+                <a href="https://github.com/HaruuuuuCalegan" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://linkedin.com/in/harold-calegan-2b335b333" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

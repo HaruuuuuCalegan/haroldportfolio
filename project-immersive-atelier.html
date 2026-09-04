@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Immersive Atelier — a project by Harold Bryan C. Calegan.">
+    <title>Immersive Atelier — Harold Calegan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"> HC </a>
+
+            <nav class="main-nav" id="main-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link active">Projects</a>
+                <a href="index.html#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Change website theme">
+                    ◐
+                </button>
+
+                <a href="index.html#contact" class="contact-button">Let's Talk</a>
+
+                <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO BANNER -->
+        <section class="project-hero-banner banner-interactive">
+            <div class="container">
+                <a href="projects.html" class="back-link"><span>←</span> All Projects</a>
+                <p class="project-hero-category">VR / Interactive</p>
+                <h1 class="project-hero-title">Immersive Atelier</h1>
+            </div>
+        </section>
+
+        <!-- META STRIP -->
+        <section class="project-meta-strip">
+            <div class="container project-meta-row">
+                <div>
+                    <span>CATEGORY</span>
+                    <strong>VR / Interactive</strong>
+                </div>
+                <div>
+                    <span>ROLE</span>
+                    <strong>Game Developer</strong>
+                </div>
+                <div>
+                    <span>YEAR</span>
+                    <strong>2026</strong>
+                </div>
+                <div>
+                    <span>STACK</span>
+                    <strong>Unity · C# · Blender</strong>
+                </div>
+            </div>
+        </section>
+
+        <!-- BODY -->
+        <section class="project-body">
+            <div class="container project-body-grid">
+                <div class="project-description">
+                            <p>Immersive Atelier (PIA) is a virtual reality educational game that teaches the pottery-making process through interactive simulation. It was built with Unity and C# for VR headsets.</p>
+                            <p>The core of the project is a 3D mesh modeling algorithm that simulates clay shaping and trimming in real time as the player's hands move, alongside guided tutorials, pottery challenges, decoration tools, firing simulations, measurement feedback, and a performance evaluation system.</p>
+                            <p>The goal was to make a genuinely hands-on craft feel tactile and teachable in VR, rather than just a passive walkthrough.</p>
+
+                    <div class="project-tags">
+                            <span>UNITY</span>
+                            <span>C#</span>
+                            <span>VIRTUAL REALITY</span>
+                            <span>BLENDER</span>
+                    </div>
+                </div>
+
+                <aside class="project-sidebar">
+                    <span class="sidebar-label">KEY FEATURES</span>
+                    <ul class="sidebar-list">
+                                <li>Real-time 3D mesh deformation for clay shaping</li>
+                                <li>Guided pottery tutorials and challenges</li>
+                                <li>Firing simulation with scoring feedback</li>
+                                <li>Natural VR hand-tracking interactions</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+
+        <!-- GALLERY -->
+        <section class="project-gallery-section">
+            <div class="container">
+                <p class="section-label" style="margin-bottom:20px;">GALLERY</p>
+                <div class="project-carousel single-image">
+                    <div class="carousel-track">
+                        <figure>
+                            <img src="assets/PIA/IMAGE 1.png" alt="Immersive Atelier — title screen">
+                            <figcaption>Immersive Atelier — title screen</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECT-TO-PROJECT NAV -->
+        <section>
+            <div class="container project-nav-footer">
+                <a href="project-ecom-ai.html"><span>←</span> ECOM AI</a>
+                <a href="project-carnivors-corner.html">Carnivor's Corner <span>→</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="current-year">2026</span> Harold Bryan C. Calegan. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="mailto:caleganh@gmail.com">Email</a>
+                <a href="https://github.com/HaruuuuuCalegan" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://linkedin.com/in/harold-calegan-2b335b333" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
